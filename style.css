@@ -1418,8 +1418,7 @@ padding: 25px;
   color: #475569;
   max-width: 800px;
   margin: 0 auto 40px;
-  font-size: 18px;
-  line-height: 1.6;
+  font-family: inherit;
 }
 
 .solidex-grid {
@@ -1509,7 +1508,6 @@ padding: 25px;
 .solidex-industries-list {
   padding: 60px 20px;
   background-color: #ffffff;
-  font-family: "Segoe UI", Roboto, Arial, sans-serif;
 }
 
 
