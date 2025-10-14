@@ -7,6 +7,7 @@
 .text_custom_grey p{
     color: #67686d;
 }
+
 .header_logo img{
  width: 120px!important;
  object-fit: contain;
@@ -30,10 +31,10 @@
 
 .form_hero input, .form_hero textarea{
     background: #fff!important;
-    color: #1a1e32!important;
+    color: #000000!important;
 }
 .form_hero input::placeholder, .form_hero textarea::placeholder{
-    color: #1a1e32!important;
+    color: #000000!important;
 }
 .btn_text{
     font-weight: 500;
@@ -380,7 +381,7 @@
 
 .service_section_main{
     height: auto;
-    background: #1a1e32;
+    background: #000000;
 }
 .service_content a, .service_content p{
     text-align: center;
@@ -414,7 +415,7 @@
 .cta1-wrap{
     padding-top: 40px!important;
     padding-bottom: 40px!important;
-    background: #1a1e32;
+    background: #000;
 }
 .cta1_main{
     display: flex;
@@ -446,7 +447,7 @@
 }
 
 .footer_main{
-    background: #1a1e32;
+    background: #000000;
 }
 .copyright_bottom{
     background: #262a3d!important;
@@ -468,7 +469,7 @@
 }
 
 .mobile_menu_main ul li a{
-    color: #1a1e32;
+    color: #000000;
 }
 .mobile_menu_main ul li ul li a{
     color: #494c5a;
@@ -1003,7 +1004,7 @@
 
 
 .waste_management_row{
-    background: #1a1e32;
+    background: #000000;
     border-radius: 6px;
     overflow: hidden;
     margin-bottom: 50px;
@@ -1542,6 +1543,8 @@ padding: 25px;
    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
+
+
 /* INDUSTRIES WE SERVE - LIST STYLE */
 .solidex-industries-list {
   padding: 60px 20px;
@@ -1729,6 +1732,9 @@ padding: 25px;
   font-size: 0.9rem;
   letter-spacing: 0.5px;
 }
+.wrapper_best span {
+    color: #e71e24;
+}
 
 @media (max-width: 768px) {
   .before-after-container {
@@ -1853,5 +1859,14 @@ padding: 25px;
 .supplier_rows .supplier_card {
     border: 1px solid #ccc;
     padding: 10px;
+}
+.hero_buttons_show{
+  display: flex;
+  justify-content: center;
+}
+.hero_buttons_show a{
+  display: block!important;
+  width: fit-content;
+  padding: 8px 20px!important;
 }
 }
