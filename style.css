@@ -490,7 +490,37 @@
     background-color: #e71e24;
 }
 
+.blog_page_blog_section .h4-headline h4{
+    color: #222;
+    font-weight: 500;
+    font-size: 20px;
+}
+.h4-blog-area .h4-blogs .h4-blog-column .blog-content .seperator::before {
+    background-color: #e71e24;
+}
+.h4-blog-area .h4-blogs .h4-blog-column .blog-content .readmore-btn a {
+    margin-top: 12px;
+    text-transform: none;
+    font-weight: 500;
+    color: #e71e24;
+}
+.h4-blog-area .h4-blogs .h4-blog-column .blog-content .readmore-btn {
+    height: auto;
+}
+.h4-blog-area .h4-blogs .h4-blog-column .blog-content .readmore-btn a i {
+    font-size: 14px;
+}
 
+
+.header-style-3 .header-bottom {
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+}
+.blog-content-section .blog-posts .blog-details-post .details-blog-meta span i {
+    color: #294f76;
+}
+.blog-content-section .blog-sidebar .sidebar-widget .widget-title h5::after {
+    background-color: #e71e24;
+}
 
 /* MINI CTA AT TOP OF FOOTER */
 .solidex-footer-cta {
