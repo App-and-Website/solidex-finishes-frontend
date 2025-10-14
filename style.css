@@ -522,6 +522,401 @@
     background-color: #e71e24;
 }
 
+
+/* ===== SOLIDEX PROCESS SECTION ===== */
+.solidex-process-section {
+  background: #fff9f9;
+  padding: 60px 20px;
+  font-family: inherit;
+  color: #0f1724;
+}
+
+.solidex-process-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.solidex-process-heading {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.solidex-process-intro {
+  text-align: center;
+  color: #475569;
+  max-width: 900px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+}
+
+/* Grid - 3 columns on desktop */
+.solidex-process-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+/* Card */
+.solidex-process-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 22px;
+  box-shadow: 0 6px 18px rgba(15,23,36,0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: transform 240ms ease, box-shadow 240ms ease;
+  position: relative;
+  overflow: hidden;
+  min-height: 210px;
+}
+
+.solidex-process-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 34px rgba(15,23,36,0.12);
+}
+
+/* Step badge */
+.solidex-process-badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: linear-gradient(135deg,#ef4444,#ff7a7a);
+  color: #fff;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  font-size: 14px;
+  box-shadow: 0 4px 12px rgba(239,68,68,0.18);
+}
+
+/* icon */
+.solidex-process-icon {
+  background: rgba(14,165,164,0.06);
+  width: 64px;
+  height: 64px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 14px;
+}
+
+/* title & desc */
+.solidex-process-title {
+  font-size: 18px;
+  margin: 0 0 8px;
+  color: #0f1724;
+  font-weight: 700;
+}
+
+.solidex-process-desc {
+  margin: 0;
+  color: #475569;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Responsive */
+@media (max-width: 1100px) {
+  .solidex-process-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .solidex-process-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .solidex-process-card {
+    min-height: auto;
+    padding: 18px;
+  }
+
+  .solidex-process-badge {
+    top: 12px;
+    right: 12px;
+    width: 32px;
+    height: 32px;
+    font-size: 13px;
+  }
+
+  .solidex-process-icon {
+    width: 56px;
+    height: 56px;
+  }
+}
+
+
+
+/* projects page css */
+.mts-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+.mts-section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #222;
+}
+.mts-filter-buttons {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.mts-filter-btn {
+  background: #294f76;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.mts-filter-btn:hover,
+.mts-filter-btn.active {
+  background: #294f76;
+}
+.mts-projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+.mts-project-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+.mts-project-card:hover {
+  transform: translateY(-5px);
+}
+.mts-project-card img {
+  width: 100%;
+  display: block;
+}
+.mts-project-content {
+  padding: 20px;
+}
+.mts-project-content h3 {
+  margin: 0 0 10px;
+  font-size: 1.25rem;
+}
+.mts-project-content p {
+  margin: 0 0 15px;
+  font-size: 0.95rem;
+  color: #555;
+}
+.mts-project-content a {
+  color: #294f76;
+  text-decoration: none;
+  font-weight: 600;
+}
+.mts-project-content a:hover {
+  text-decoration: underline;
+}
+
+.mts-filter-btn:hover {
+  background: #e71e24; /* hover red */
+  color: #fff;
+}
+
+.mts-filter-btn.active {
+  background: #e71e24; /* active red */
+  color: #fff;
+}
+
+/* Responsive */
+@media(max-width:768px){
+  .mts-section-title { font-size: 2rem; }
+  .mts-project-content h3 { font-size: 1.1rem; }
+}
+
+
+
+/* project-details-page-css */
+.mts-project-details {
+  background: #fff;
+  color: #333;
+}
+.mts-details-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.mts-client-industry{
+  margin-top: 20px;
+}
+.mts-project-challenge {
+  margin-bottom: 20px;
+}
+.mts-system-installed h3,
+.mts-results h3,
+.mts-testimonial h3,
+.mts-related-projects h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.mts-project-images {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.mts-project-images img {
+  width: 30%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.mts-testimonial blockquote {
+  font-style: italic;
+  border-left: 4px solid #294f76;
+  padding-left: 15px;
+  color: #555;
+}
+.mts-testimonial p {
+  text-align: right;
+  font-weight: bold;
+}
+.mts-related-projects ul {
+  list-style-type: none;
+  padding: 0;
+}
+.mts-related-projects li {
+  margin-bottom: 10px;
+}
+.mts-cta-buttons {
+  margin-top: 30px;
+}
+.mts-cta-btn {
+  background: #f0f0f0;
+  color: #222;
+  padding: 12px 25px;
+  margin: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.mts-cta-btn:hover {
+  background: #294f76;
+  color: #fff;
+}
+.mts-cta-primary {
+  background: #294f76;
+  color: #fff;
+}
+.mts-cta-primary:hover {
+  background: #294f76;
+}
+.mts-related-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.mts-related-header h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #294f76; /* red color as per your style */
+}
+.mts-cta-btn {
+  background: #294f76;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.mts-cta-btn:hover {
+  background: #294f76;
+}
+@media(max-width:768px){
+  .mts-project-images {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mts-project-images img {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
+/* Container for image cards */
+.project-image-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 40px;
+}
+
+/* Individual image card */
+.image-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.image-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Image styling */
+.image-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Labels */
+.image-label {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  padding: 5px 12px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.image-label.before {
+  background-color: #ff6b6b;
+}
+
+.image-label.during {
+  background-color: #f0ad4e;
+}
+
+.image-label.after {
+  background-color: #28a745;
+}
+
+/* Responsive adjustments */
+@media(max-width:768px) {
+  .project-image-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(max-width:500px) {
+  .project-image-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
 /* MINI CTA AT TOP OF FOOTER */
 .solidex-footer-cta {
     width: 100%;
