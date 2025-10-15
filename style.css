@@ -2174,6 +2174,10 @@ padding: 25px;
   }
 }
 
+.contpad{
+    padding: 40px 10px;
+}
+
 .footer_main {
     padding-top: 50px;
 }
@@ -2253,6 +2257,19 @@ padding: 25px;
 .home5-feedback-area .slick-list {
     padding-top: 20px!important;
 }
+.servicecth2{
+    text-align: left;
+}
+.servdescmain{
+    margin-bottom: 30px
+}
+.gallery_sec  {
+    padding-top: 0;
+    padding-bottom: 50px
+}
+.gallery_sec .testimonial_slider {
+    grid-template-columns: auto auto auto;
+}
 }
 
 @media (max-width: 768px) {
@@ -2290,6 +2307,15 @@ padding: 25px;
 }
 .footer_main {
     padding-top: 0px;
+}
+.gallery_sec .testimonial_slider {
+    grid-template-columns: auto auto;
+}
+.gallery_sec .testimonial_slider img{
+    max-height: 160px!important;
+}
+.contpad{
+    padding: 40px 10px;
 }
 }
 
