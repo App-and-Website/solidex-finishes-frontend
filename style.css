@@ -916,6 +916,10 @@
 }
 
 
+.list_olservices ol li{
+    margin-top: 10px;
+}
+
 
 /* MINI CTA AT TOP OF FOOTER */
 .solidex-footer-cta {
@@ -2173,7 +2177,37 @@ padding: 25px;
 .footer_main {
     padding-top: 50px;
 }
-
+.maintenance_tips ul li{
+  margin-top: 10px;
+  list-style-type: disc;
+  margin-left: 20px;
+}
+.gallery_sec .testimonial_slider{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+.gallery_sec .testimonial_slider .before-image img{
+    height: 200px!important;
+    width: 100%!important;
+    object-fit: cover!important;
+    border: 1px solid #294f76;
+}
+.whitebg::before {
+    background-color: rgba(255, 255, 255, 1);
+}
+.whitebg .hero_buttons_show .req_quote2{
+   background: #fff;
+   color: #000;
+}
+.whitebg .hero_buttons_show .req_quote2:hover{
+   background: #f7f3f3;
+   color: #000;
+}
+.whitebg .hero_buttons_show .req_quote1:hover{
+  color: #fff;
+  background: #ac161b;
+}
 @media (max-width: 1200px) {
 .hero_content_outer{
     max-width: 600px;
